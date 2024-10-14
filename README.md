@@ -11,7 +11,7 @@ javac part?/nama-file.java
 <h3>Menjalankan program:</h3>
 
 ```bash
-java nama-file <br>
+java nama-file
 # or
 java part?.nama-file
 ```
