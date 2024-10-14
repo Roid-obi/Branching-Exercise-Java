@@ -1,11 +1,11 @@
 <h1>Latihan percabangan dengan java</h1>
 
-<h3>Mengkompilasi:</h3> <br>
+<h3>Mengkompilasi:</h3>
 javac nama-file.java <br>
 atau <br>
 javac part?/nama-file.java
 
-<h3>Menjalankan program:</h3> <br>
+<h3>Menjalankan program:</h3>
 java nama-file <br>
 atau <br>
 java part?.nama-file
