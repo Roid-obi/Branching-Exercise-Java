@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 // Pseudocode
 // Star
-// String nama
+// String nama, keterangan, nilaiHuruf
 // double nilai
+// input nama
+// input nilai
 // 
 // End
 
