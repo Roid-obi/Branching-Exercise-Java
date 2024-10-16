@@ -5,8 +5,22 @@ import java.util.Scanner;
 // String nama, keterangan, nilaiHuruf
 // double nilai
 // input nama
-// input nilai
-// 
+// input nilai (while if (nilai > 100 || nilai < 0) )
+// keterangan = (nilai >= 60) ? "lulus" : "tidak lulus"
+
+// if (nilai <= 49) {
+//     nilaiHuruf = "E";
+// } else if (nilai >= 50 && nilai <= 59) {
+//     nilaiHuruf = "D";
+// } else if (nilai >= 60 && nilai <= 74) {
+//     nilaiHuruf = "C";
+// } else if (nilai >= 75 && nilai <= 84) {
+//     nilaiHuruf = "B";
+// } else {
+//     nilaiHuruf = "A";
+// }
+
+// Output nama, kerangan, nilaiHuruf
 // End
 
 public class cobaPercabangan {
