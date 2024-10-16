@@ -38,7 +38,7 @@ public class cobaPercabangan {
         keterangan = (nilai >= 60) ? "lulus" : "tidak lulus";
 
          // Konversi nilai ke huruf
-         if (nilai <= 49) {
+        if (nilai <= 49) {
             nilaiHuruf = "E";
         } else if (nilai >= 50 && nilai <= 59) {
             nilaiHuruf = "D";
