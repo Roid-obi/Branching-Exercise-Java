@@ -2,35 +2,40 @@ package part1;
 
 import java.util.Scanner;
 
+// 1
+// Menghitung diskon belanja dan bayar setalah diskon
+// dengan ketentuan diskon 10% untuk belanja >=100 ribu
+// atau 5% untuk belanja >=50 ribu atau tidak diskon sama sekali
+
+
 // Pseudocode
 // Start
-    // double totalBelanja, diskon, jumlahDiskon, totalBayar
-    // Input totalBelanja
+    // double `totalBelanja`, `diskon`, `jumlahDiskon`, `totalBayar`
+
+    // Input `totalBelanja`
     
-    // IF totalBelanja >= 100000 THEN
+    // IF `totalBelanja` >= 100000 
         // diskon = 0.10
-    // ELSE IF totalBelanja >= 50000 THEN
+    // ELSE IF `totalBelanja` >= 50000 
         // diskon = 0.05
     // ELSE
         // diskon = 0
 
-    // Hitung jumlahDiskon = totalBelanja * diskon
-    // Hitung totalBayar = totalBelanja - jumlahDiskon
+    // Hitung jumlahDiskon = `totalBelanja` * `diskon`
+    // Hitung totalBayar = `totalBelanja` - `jumlahDiskon`
 
-    // Output jumlahDiskon
-    // Output totalBayar
+    // Output `jumlahDiskon`
+    // Output `totalBayar`
 // End
-
-
 
 
 public class DiskonBelanja {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         // Input jumlah belanja
         System.out.print("Masukkan jumlah bayar belanjaan: ");
-        double totalBelanja = scanner.nextDouble();
+        double totalBelanja = input.nextDouble();
         
         // Variabel untuk diskon dan total bayar
         double diskon = 0;
@@ -52,6 +57,6 @@ public class DiskonBelanja {
         System.out.println("Jumlah diskon: Rp " + jumlahDiskon);
         System.out.println("Total bayar setelah diskon: Rp " + totalBayar);
 
-        scanner.close();
+        input.close();
     }
 }
