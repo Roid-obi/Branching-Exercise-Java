@@ -12,7 +12,6 @@ import java.util.Scanner;
     // char `pilihan`
 
     // Input `celcius`
-
     // Input "Pilih konversi suhu (K untuk Kelvin, R untuk Reamur, F untuk Fahrenheit):"
 
     // Ubah `pilihan` menjadi huruf kapital (gunakan fungsi `toUpperCase`)
